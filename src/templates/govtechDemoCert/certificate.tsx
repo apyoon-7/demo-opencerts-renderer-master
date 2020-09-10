@@ -16,7 +16,7 @@ export const CertificateTemplate: FunctionComponent<TemplateProps<GovtechOpencer
 }) => {
   //const transcriptData = document.transcript || [];
   var x: number = +(document.totalCredit);
-  if (x < 169){
+  if (x < 178){
       return (<div className="my-5 m-lg-5 text-center" style={{ paddingTop: "5%"}}> 
         <font size="4"> Undergraduate </font>
         </div>);
