@@ -19,7 +19,6 @@ export interface GovtechOpencertsTemplateCertificate extends Document {
     graduationDate: string;
     schoolOf: string;
     lastyear: string;
-    credit: string;
   };
   transcript: {
     trimester: string;
@@ -60,8 +59,7 @@ export const customTemplateCertificate: GovtechOpencertsTemplateCertificate = {
     admissionDate: "July 31, 2017",
     graduationDate: "July 31, 2021",
     schoolOf: "Computer Engineering",
-    lastyear: "2018",
-    credit: "180"
+    lastyear: "2018"
   },
   transcript: [
     {
