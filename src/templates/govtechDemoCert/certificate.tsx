@@ -5,19 +5,13 @@ import "bootstrap/dist/css/bootstrap.css";
 import "./common/demoStyles.css";
 import { TemplateProps } from "@govtechsg/decentralized-renderer-react-components";
 import { GovtechOpencertsTemplateCertificate } from "../samples";
-//import { PrintWatermark } from "./common/PrintWatermark";
-import sutLogo from "./common/sutlogo.png";
-//import logo from "./common/SutLetter_logo.png";
-import certificateBg from "./common/certificate_background.png";
-
-
+import sutLogo from "./common/SUT_Logo.png";
 
 export const CertificateTemplate: FunctionComponent<TemplateProps<GovtechOpencertsTemplateCertificate>> = ({
   document
 }) => {
 
   const lastCredit = document.transcript[document.transcript.length-1].totalCredit;
-
   var x: number = +(lastCredit);
  
   if (x < 178){
